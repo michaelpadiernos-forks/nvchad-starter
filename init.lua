@@ -29,12 +29,13 @@ require("lazy").setup({
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
 
-require "options"
+require "core.options"
 require "nvchad.autocmds"
 
 vim.schedule(function()
-  require "mappings"
+  require "core.mappings"
 end)
 
--- require "user.options"
-require "user.keymaps"
+require "user.options"
+require "user.mappings"
+require "user.colors"

@@ -1,15 +1,17 @@
 return {
 
+  -- core
+  { require 'extend.core'},
+
   -- plugins
-  -- inits
-  { require 'plugins.inits.contrib' },
-  { require 'plugins.inits.treesitter'},
-  { require 'plugins.inits.telescope' },
-  -- { require 'plugins.inits.cmp' },
-  -- { require 'plugins.inits.lsp' },
-  { require 'plugins.inits.vim' },
-  { require 'plugins.inits.mini' },
-  { require 'plugins.inits.drupal' },
+  { require 'extend.contrib' },
+  { require 'extend.treesitter'},
+  -- { require 'extend.telescope' },
+  -- { require 'extend.cmp' },
+  { require 'extend.lsp' },
+  { require 'extend.vim' },
+  { require 'extend.mini' },
+  { require 'extend.drupal' },
 
   -- configs
   { import = 'plugins.contrib' },
