@@ -1,25 +1,24 @@
 return {
-  {
-    "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
-    opts = require "configs.conform",
-  },
 
-  -- These are some examples, uncomment them if you want to see them work!
-  {
-    "neovim/nvim-lspconfig",
-    config = function()
-      require "configs.lspconfig"
-    end,
-  },
+  -- core
+  { require 'extend.core'},
 
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
+  -- plugins
+  { require 'extend.contrib' },
+  { require 'extend.treesitter'},
+  -- { require 'extend.telescope' },
+  -- { require 'extend.cmp' },
+  { require 'extend.lsp' },
+  { require 'extend.vim' },
+  { require 'extend.mini' },
+  { require 'extend.drupal' },
+
+  -- configs
+  { import = 'plugins.contrib' },
+  { import = 'plugins.cmp' },
+  { import = 'plugins.lsp' },
+  { import = 'plugins.vim' },
+  { import = 'plugins.mini' },
+  { import = 'plugins.drupal' },
+
 }
