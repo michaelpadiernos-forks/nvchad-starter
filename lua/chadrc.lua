@@ -6,12 +6,21 @@
 local M = {}
 
 M.base46 = {
-	theme = "gatekeeper",
+	theme = "yoru",
 
-	-- hl_override = {
+	hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
-	-- },
+	  Normal = { bg = "#000000" },
+    NormalNC = { bg = "#000000" },
+    NvimTreeWinSeparator = { fg = "#000000", bg = "#000000" },
+    NvimTreeNormal  = { bg = "#000000" },
+    NvimTreeNormalNC = { bg = "#000000" },
+    TabLineSel = { bg = "#000000" },
+    St_EmptySpace  = { bg = "#000000" },
+    St_gitIcons = { bg = "#000000" },
+    St_LspMsg = { bg = "#000000" },
+  },
 }
 
 M.ui = {
