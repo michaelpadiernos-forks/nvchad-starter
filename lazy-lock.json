@@ -70,7 +70,7 @@
   "telescope_sessions_picker.nvim": { "branch": "main", "commit": "f921ab956d500f0dcac1751b544848db8198313f" },
   "tide": { "branch": "main", "commit": "8db2474f320d7f006d075a9a8183acf23b022a26" },
   "todo-comments": { "branch": "main", "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0" },
-  "treesitter": { "branch": "master", "commit": "92d2501d698e0fe855bd222540f9648890fab6c7" },
+  "treesitter": { "branch": "master", "commit": "b065b59196edb10a7c29bfbed88cc225b7e3de37" },
   "ui": { "branch": "v3.0", "commit": "6a61af45771f82e3881646d308db624b3e896643" },
   "vim-fugitive": { "branch": "master", "commit": "d4877e54cef67f5af4f950935b1ade19ed6b7370" },
   "vim-styls": { "branch": "master", "commit": "0e457b09db55d3518703bb22e1555872c5c44b7a" },
