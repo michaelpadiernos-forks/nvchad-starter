@@ -39,6 +39,7 @@
   "mini.misc": { "branch": "main", "commit": "428da688126b320194a944233f9f8dfc46669307" },
   "mini.nvim": { "branch": "main", "commit": "0a8a1072137d916406507c941698a4bfa9dbbe7a" },
   "mini.operators": { "branch": "main", "commit": "3bc484733f416a09c5d571135dcfd0062bcc1478" },
+  "mini.starter": { "branch": "main", "commit": "3e0af795938ee800846708bed92fbe4e8583141a" },
   "minty": { "branch": "main", "commit": "157e91c04cce2f01643519338d6b854275a77547" },
   "namespace": { "branch": "master", "commit": "b13d5dc1da64ac839552e8f7a4f69b486de252b4" },
   "noice": { "branch": "main", "commit": "df448c649ef6bc5a6a633a44f2ad0ed8d4442499" },

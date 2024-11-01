@@ -44,7 +44,7 @@ return {
           -- 'Bookmarks'
         }),
         starter.gen_hook.padding(0, 1),
-        starter.gen_hook.aligning('left', 'top'),
+        starter.gen_hook.aligning('center', 'top'),
       },
 
       query_updaters = 'abcdefghijklmnopqrstuvwxyz0123456789_-.',
